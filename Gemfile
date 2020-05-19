@@ -6,22 +6,22 @@ end
 
 ruby '2.3.0'
 
-gem 'rails', '5.0.0.beta2'
+gem 'rails', '5.2.4.3'
 gem 'sprockets'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'sass-rails', '>= 5.0.5'
+gem 'coffee-rails', '>= 4.2.2'
 gem 'uglifier'
-gem 'jquery-rails'
-gem 'jbuilder'
+gem 'jquery-rails', '>= 4.1.1'
+gem 'jbuilder', '>= 2.6.4'
 gem 'turbolinks', github: 'rails/turbolinks'
-gem 'jquery-turbolinks'
-gem 'dropzonejs-rails'
+gem 'jquery-turbolinks', '>= 2.1.0'
+gem 'dropzonejs-rails', '>= 0.7.2'
 
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 5.0.0'
 gem 'http_accept_language'
-gem 'rails_autolink'
-gem 'md_emoji'
-gem 'exception_notification'
+gem 'rails_autolink', '>= 1.1.6'
+gem 'md_emoji', '>= 1.0.2'
+gem 'exception_notification', '>= 4.1.1'
 
 gem 'doorkeeper', github: 'doorkeeper-gem/doorkeeper'
 gem 'doorkeeper-i18n'
@@ -30,8 +30,8 @@ gem 'doorkeeper-i18n'
 # gem 'ruby-prof'
 
 # 上传组件
-gem 'carrierwave'
-gem 'carrierwave-upyun'
+gem 'carrierwave', '>= 0.10.0'
+gem 'carrierwave-upyun', '>= 0.2.1'
 gem 'mini_magick'
 
 gem 'rucaptcha'
@@ -43,14 +43,14 @@ gem 'pg'
 gem 'mongo', require: false
 
 # 用户系统
-gem 'devise', '~> 4.0.0.rc1'
-gem 'devise-encryptable'
+gem 'devise', '~> 4.4.2.0'
+gem 'devise-encryptable', '>= 0.2.0'
 
 # 分页
 gem 'will_paginate'
 
 # 搜索
-gem 'elasticsearch-model'
+gem 'elasticsearch-model', '>= 0.1.8'
 gem 'elasticsearch-rails'
 
 # 三方平台 OAuth 验证登陆
@@ -67,12 +67,12 @@ gem 'redis-namespace'
 # 将一些数据存放入 Redis
 gem 'redis-objects'
 
-gem 'rails-settings-cached'
+gem 'rails-settings-cached', '>= 0.5.3'
 
 # Markdown 格式 & 文本处理
 gem 'redcarpet', '~> 3.3.4'
 gem 'rouge', '~> 1.8.0'
-gem 'auto-space'
+gem 'auto-space', '>= 0.0.4'
 gem 'nokogiri'
 
 # YAML 配置信息
@@ -84,19 +84,19 @@ gem 'sidekiq'
 gem 'sinatra', github: 'sinatra/sinatra', require: nil
 
 # 分享功能
-gem 'social-share-button'
+gem 'social-share-button', '>= 0.1.10'
 
 # 表单
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 
 # API
-gem 'grape'
+gem 'grape', '>= 0.14.0'
 gem 'active_model_serializers', '0.9.2'
-gem 'grape-active_model_serializers'
+gem 'grape-active_model_serializers', '>= 1.3.2'
 
 # Mailer
 gem 'postmark'
-gem 'postmark-rails'
+gem 'postmark-rails', '>= 0.12.0'
 
 # Dalli, kgio is for Dalli
 gem 'kgio'
@@ -130,15 +130,15 @@ end
 group :development, :test do
   gem 'rubocop'
 
-  gem 'rspec-rails', '3.5.0.beta1'
+  gem 'rspec-rails', '3.5.0'
 
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 0.0.3'
 
   gem 'factory_girl_rails', '~> 4.5.0'
   gem 'database_cleaner'
   gem 'capybara'
 
-  gem 'jasmine-rails', '~> 0.10.2'
+  gem 'jasmine-rails', '~> 0.10.8'
 
   gem 'colorize'
   gem 'letter_opener'
