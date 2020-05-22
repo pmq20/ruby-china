@@ -102,7 +102,7 @@ gem 'postmark-rails'
 gem 'kgio'
 gem 'dalli'
 
-gem 'puma'
+gem 'puma', '>= 3.12.6'
 
 gem 'parallel'
 
