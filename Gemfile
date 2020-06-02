@@ -6,7 +6,7 @@ end
 
 ruby '2.3.0'
 
-gem 'rails', '5.0.0.beta2'
+gem 'rails', '5.0.0'
 gem 'sprockets'
 gem 'sass-rails'
 gem 'coffee-rails'
@@ -15,11 +15,11 @@ gem 'jquery-rails'
 gem 'jbuilder'
 gem 'turbolinks', github: 'rails/turbolinks'
 gem 'jquery-turbolinks'
-gem 'dropzonejs-rails'
+gem 'dropzonejs-rails', '>= 0.7.2'
 
 gem 'rails-i18n'
 gem 'http_accept_language'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.6'
 gem 'md_emoji'
 gem 'exception_notification'
 
@@ -67,7 +67,7 @@ gem 'redis-namespace'
 # 将一些数据存放入 Redis
 gem 'redis-objects'
 
-gem 'rails-settings-cached'
+gem 'rails-settings-cached', '>= 0.5.3'
 
 # Markdown 格式 & 文本处理
 gem 'redcarpet', '~> 3.3.4'
@@ -132,7 +132,7 @@ group :development, :test do
 
   gem 'rspec-rails', '3.5.0.beta1'
 
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 0.0.3'
 
   gem 'factory_girl_rails', '~> 4.5.0'
   gem 'database_cleaner'
